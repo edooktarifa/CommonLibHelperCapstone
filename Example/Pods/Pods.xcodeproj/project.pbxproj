@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084B406F83E785B3F1C99689C0EE5973 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400BED9D5C82DC4837D9E31440568F8 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1A8EA6E038C44C6CAF2228C2392776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36F518E22835DF1F00F611CB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */; };
+		400116ACB1282FD89BE90FBC640FFF3D /* Pods-CommonLibHelperCapstone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF1FEB2200712E8902A6BEF3F48578B /* Pods-CommonLibHelperCapstone_Tests-dummy.m */; };
+		40B93FEB2FA4EA41818A4C1C8FB9EAAC /* CommonLibHelperCapstone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BBB7CA54D654BB8686A332A35524E /* CommonLibHelperCapstone-dummy.m */; };
+		4E780EC608E6ACB2E3A8303C7F165591 /* Pods-CommonLibHelperCapstone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581BC078B13B97A7669DDFB41A3FE453 /* Pods-CommonLibHelperCapstone_Example-dummy.m */; };
+		B74674E28E7A41DE65777B80E528C8D6 /* CommonLibHelperCapstone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE64703696971B9BE4F817EFB2EAB26F /* CommonLibHelperCapstone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4F458FFABC18993E491AF1C4F4571B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C709E4025AA22E2B99F43401D421F691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3BA10E56BDB063934B03AF865826973 /* Pods-CommonLibHelperCapstone_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAEAF5689E5B1D46ADF58961667ADBA /* Pods-CommonLibHelperCapstone_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F1E611FBF2EB769BE668DA938A03BF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B317639ED22A4CA981F65BF7FC71AC36;
+			remoteInfo = CommonLibHelperCapstone;
+		};
+		A2C8AB319D0AD165001F0A840D10A539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D67D40EA19764ECB9B6A9DEE4670CF0;
+			remoteInfo = "Pods-CommonLibHelperCapstone_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C02505F3E3055CF8F47465CDE49E18 /* Pods-CommonLibHelperCapstone_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		264C5AC197E88377CE46C6E95A5569ED /* Pods-CommonLibHelperCapstone_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonLibHelperCapstone_Tests.modulemap"; sourceTree = "<group>"; };
+		32C4A0C8E8E3FAE3C444E4B196D88359 /* Pods-CommonLibHelperCapstone_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Tests-Info.plist"; sourceTree = "<group>"; };
+		338B5CDD51A4711632077EF825B59FB2 /* Pods-CommonLibHelperCapstone_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Example-Info.plist"; sourceTree = "<group>"; };
+		36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		38068323AA7FB6C6FF03935C565CF1E8 /* CommonLibHelperCapstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonLibHelperCapstone.debug.xcconfig; sourceTree = "<group>"; };
+		4400BED9D5C82DC4837D9E31440568F8 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonLibHelperCapstone_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4CAEEC178E00621E80F15984A2FFDD15 /* CommonLibHelperCapstone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonLibHelperCapstone.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		525675B5441432C1B13758F10EDFAEBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		52668E6E476415B61A6D2BECE07C4DBC /* CommonLibHelperCapstone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonLibHelperCapstone.modulemap; sourceTree = "<group>"; };
+		540C7DBD45D5C3859579030CE4E061DA /* CommonLibHelperCapstone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonLibHelperCapstone-prefix.pch"; sourceTree = "<group>"; };
+		581BC078B13B97A7669DDFB41A3FE453 /* Pods-CommonLibHelperCapstone_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonLibHelperCapstone_Example-dummy.m"; sourceTree = "<group>"; };
+		607901A84B566A5E7B4AA9AB56461647 /* CommonLibHelperCapstone */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonLibHelperCapstone; path = CommonLibHelperCapstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF1FEB2200712E8902A6BEF3F48578B /* Pods-CommonLibHelperCapstone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonLibHelperCapstone_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78FC55A402C84F7F068E15E04755229F /* Pods-CommonLibHelperCapstone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonLibHelperCapstone_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC0B2D3A7DA2790817A904738E58379 /* Pods-CommonLibHelperCapstone_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonLibHelperCapstone_Tests"; path = Pods_CommonLibHelperCapstone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAA6AAED3E9A9301FC5C775FA17C234 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F51B89D5209549D993EDD3FEC91615F /* Pods-CommonLibHelperCapstone_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonLibHelperCapstone_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8109A4AD74F3915C2C01A32DB9FA03C /* Pods-CommonLibHelperCapstone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonLibHelperCapstone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAEAF5689E5B1D46ADF58961667ADBA /* Pods-CommonLibHelperCapstone_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonLibHelperCapstone_Example-umbrella.h"; sourceTree = "<group>"; };
+		C2C18FFBE51E6BF2ADAC29B8F74B3292 /* CommonLibHelperCapstone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CommonLibHelperCapstone-Info.plist"; sourceTree = "<group>"; };
+		C3E0EC30F294853B0A150B629FF9C157 /* Pods-CommonLibHelperCapstone_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonLibHelperCapstone_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C55D35CA0B7AE4ED5D1DDB791158D87A /* CommonLibHelperCapstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonLibHelperCapstone.release.xcconfig; sourceTree = "<group>"; };
+		C8460F7A01463E08967A041BEC46E41A /* Pods-CommonLibHelperCapstone_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CommonLibHelperCapstone_Example"; path = Pods_CommonLibHelperCapstone_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE38F279A6B9ECCE2FBCF3B8CA17F77F /* Pods-CommonLibHelperCapstone_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D90027CCF1673496B679787E32A488FA /* Pods-CommonLibHelperCapstone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonLibHelperCapstone_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DCCE78DF44A959E0667CF1FBBEA2101A /* Pods-CommonLibHelperCapstone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonLibHelperCapstone_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EB2E9C23444BDC38660B54D53CD111BC /* Pods-CommonLibHelperCapstone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonLibHelperCapstone_Example.modulemap"; sourceTree = "<group>"; };
+		EE64703696971B9BE4F817EFB2EAB26F /* CommonLibHelperCapstone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonLibHelperCapstone-umbrella.h"; sourceTree = "<group>"; };
+		F3976D4F2716D4C9B4B29A300279558F /* Pods-CommonLibHelperCapstone_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonLibHelperCapstone_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC1BBB7CA54D654BB8686A332A35524E /* CommonLibHelperCapstone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonLibHelperCapstone-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A34BB738EC5EA15929C01F4A1748B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1A8EA6E038C44C6CAF2228C2392776 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667AE281D912D1325C22D0C59CA71A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4F458FFABC18993E491AF1C4F4571B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B4F8C1FFA3182AD8CC987B5AE8D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C709E4025AA22E2B99F43401D421F691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0F9C17E308A58FEE0B8FD3AFA7F94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607901A84B566A5E7B4AA9AB56461647 /* CommonLibHelperCapstone */,
+				C8460F7A01463E08967A041BEC46E41A /* Pods-CommonLibHelperCapstone_Example */,
+				7DC0B2D3A7DA2790817A904738E58379 /* Pods-CommonLibHelperCapstone_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FAB40B80DAE493FA11570AFBE749EDF /* CommonLibHelperCapstone */ = {
+			isa = PBXGroup;
+			children = (
+				36F518E02835DEC700F611CB /* Classes */,
+				96564A31A4184403960609F9D05F06E8 /* Pod */,
+				166994FC95BC9AD1E0DF9798703611DC /* Support Files */,
+			);
+			name = CommonLibHelperCapstone;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		166994FC95BC9AD1E0DF9798703611DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52668E6E476415B61A6D2BECE07C4DBC /* CommonLibHelperCapstone.modulemap */,
+				FC1BBB7CA54D654BB8686A332A35524E /* CommonLibHelperCapstone-dummy.m */,
+				C2C18FFBE51E6BF2ADAC29B8F74B3292 /* CommonLibHelperCapstone-Info.plist */,
+				540C7DBD45D5C3859579030CE4E061DA /* CommonLibHelperCapstone-prefix.pch */,
+				EE64703696971B9BE4F817EFB2EAB26F /* CommonLibHelperCapstone-umbrella.h */,
+				38068323AA7FB6C6FF03935C565CF1E8 /* CommonLibHelperCapstone.debug.xcconfig */,
+				C55D35CA0B7AE4ED5D1DDB791158D87A /* CommonLibHelperCapstone.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CommonLibHelperCapstone";
+			sourceTree = "<group>";
+		};
+		36F518E02835DEC700F611CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		96564A31A4184403960609F9D05F06E8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEEC178E00621E80F15984A2FFDD15 /* CommonLibHelperCapstone.podspec */,
+				525675B5441432C1B13758F10EDFAEBC /* LICENSE */,
+				8BAA6AAED3E9A9301FC5C775FA17C234 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9FDB44B5539563FAA9E477FADAAD963D /* Pods-CommonLibHelperCapstone_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E9C23444BDC38660B54D53CD111BC /* Pods-CommonLibHelperCapstone_Example.modulemap */,
+				F3976D4F2716D4C9B4B29A300279558F /* Pods-CommonLibHelperCapstone_Example-acknowledgements.markdown */,
+				10C02505F3E3055CF8F47465CDE49E18 /* Pods-CommonLibHelperCapstone_Example-acknowledgements.plist */,
+				581BC078B13B97A7669DDFB41A3FE453 /* Pods-CommonLibHelperCapstone_Example-dummy.m */,
+				C3E0EC30F294853B0A150B629FF9C157 /* Pods-CommonLibHelperCapstone_Example-frameworks.sh */,
+				338B5CDD51A4711632077EF825B59FB2 /* Pods-CommonLibHelperCapstone_Example-Info.plist */,
+				BDAEAF5689E5B1D46ADF58961667ADBA /* Pods-CommonLibHelperCapstone_Example-umbrella.h */,
+				78FC55A402C84F7F068E15E04755229F /* Pods-CommonLibHelperCapstone_Example.debug.xcconfig */,
+				D90027CCF1673496B679787E32A488FA /* Pods-CommonLibHelperCapstone_Example.release.xcconfig */,
+			);
+			name = "Pods-CommonLibHelperCapstone_Example";
+			path = "Target Support Files/Pods-CommonLibHelperCapstone_Example";
+			sourceTree = "<group>";
+		};
+		AA29E0415344D9D4DFA055BCA3356F7D /* Pods-CommonLibHelperCapstone_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				264C5AC197E88377CE46C6E95A5569ED /* Pods-CommonLibHelperCapstone_Tests.modulemap */,
+				8F51B89D5209549D993EDD3FEC91615F /* Pods-CommonLibHelperCapstone_Tests-acknowledgements.markdown */,
+				CE38F279A6B9ECCE2FBCF3B8CA17F77F /* Pods-CommonLibHelperCapstone_Tests-acknowledgements.plist */,
+				6FF1FEB2200712E8902A6BEF3F48578B /* Pods-CommonLibHelperCapstone_Tests-dummy.m */,
+				32C4A0C8E8E3FAE3C444E4B196D88359 /* Pods-CommonLibHelperCapstone_Tests-Info.plist */,
+				4400BED9D5C82DC4837D9E31440568F8 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h */,
+				A8109A4AD74F3915C2C01A32DB9FA03C /* Pods-CommonLibHelperCapstone_Tests.debug.xcconfig */,
+				DCCE78DF44A959E0667CF1FBBEA2101A /* Pods-CommonLibHelperCapstone_Tests.release.xcconfig */,
+			);
+			name = "Pods-CommonLibHelperCapstone_Tests";
+			path = "Target Support Files/Pods-CommonLibHelperCapstone_Tests";
+			sourceTree = "<group>";
+		};
+		CE970C3A29668C148CB29F2C3C945594 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB40B80DAE493FA11570AFBE749EDF /* CommonLibHelperCapstone */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CE970C3A29668C148CB29F2C3C945594 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F0F9C17E308A58FEE0B8FD3AFA7F94F /* Products */,
+				EEF0FE1DB9E8CCFD0621BE753E7763E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF0FE1DB9E8CCFD0621BE753E7763E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDB44B5539563FAA9E477FADAAD963D /* Pods-CommonLibHelperCapstone_Example */,
+				AA29E0415344D9D4DFA055BCA3356F7D /* Pods-CommonLibHelperCapstone_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B20DAC929F100F33B737A84AFC461D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084B406F83E785B3F1C99689C0EE5973 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798A2B5C2F945C579E10B218464DE684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74674E28E7A41DE65777B80E528C8D6 /* CommonLibHelperCapstone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2D0E85A5932D9302A7AE805F86FBBE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BA10E56BDB063934B03AF865826973 /* Pods-CommonLibHelperCapstone_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E133285469B19286ADF69B3CC997C21 /* Pods-CommonLibHelperCapstone_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78592FAA710B28E1C975D2355121D50A /* Build configuration list for PBXNativeTarget "Pods-CommonLibHelperCapstone_Tests" */;
+			buildPhases = (
+				3B20DAC929F100F33B737A84AFC461D4 /* Headers */,
+				A5FAABE6DAC765D4BEB2793D8B2F65B7 /* Sources */,
+				5A34BB738EC5EA15929C01F4A1748B16 /* Frameworks */,
+				ABFD0A4CFF5801586F1DFECD2EBFAEE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881F821A024DB790647881DDD3BA990F /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonLibHelperCapstone_Tests";
+			productName = Pods_CommonLibHelperCapstone_Tests;
+			productReference = 7DC0B2D3A7DA2790817A904738E58379 /* Pods-CommonLibHelperCapstone_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D67D40EA19764ECB9B6A9DEE4670CF0 /* Pods-CommonLibHelperCapstone_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E7630C5354561354638E28321ECE15 /* Build configuration list for PBXNativeTarget "Pods-CommonLibHelperCapstone_Example" */;
+			buildPhases = (
+				F2D0E85A5932D9302A7AE805F86FBBE0 /* Headers */,
+				E258E9EF98F1628E765B8D981B4A735E /* Sources */,
+				CF0B4F8C1FFA3182AD8CC987B5AE8D75 /* Frameworks */,
+				96A86E983FE27FEBDA0546B91FF3A7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A991829CEFC84E711CA1D6D3EAEE13 /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonLibHelperCapstone_Example";
+			productName = Pods_CommonLibHelperCapstone_Example;
+			productReference = C8460F7A01463E08967A041BEC46E41A /* Pods-CommonLibHelperCapstone_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B317639ED22A4CA981F65BF7FC71AC36 /* CommonLibHelperCapstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B98A805D00E522B8A48313549DD77C0 /* Build configuration list for PBXNativeTarget "CommonLibHelperCapstone" */;
+			buildPhases = (
+				798A2B5C2F945C579E10B218464DE684 /* Headers */,
+				77D0B1D033CBDD4C4A0CA2C9FAC89B7B /* Sources */,
+				667AE281D912D1325C22D0C59CA71A65 /* Frameworks */,
+				BC9A531290C0893D732A23411A7CD12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonLibHelperCapstone;
+			productName = CommonLibHelperCapstone;
+			productReference = 607901A84B566A5E7B4AA9AB56461647 /* CommonLibHelperCapstone */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F0F9C17E308A58FEE0B8FD3AFA7F94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B317639ED22A4CA981F65BF7FC71AC36 /* CommonLibHelperCapstone */,
+				5D67D40EA19764ECB9B6A9DEE4670CF0 /* Pods-CommonLibHelperCapstone_Example */,
+				2E133285469B19286ADF69B3CC997C21 /* Pods-CommonLibHelperCapstone_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A86E983FE27FEBDA0546B91FF3A7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFD0A4CFF5801586F1DFECD2EBFAEE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9A531290C0893D732A23411A7CD12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D0B1D033CBDD4C4A0CA2C9FAC89B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B93FEB2FA4EA41818A4C1C8FB9EAAC /* CommonLibHelperCapstone-dummy.m in Sources */,
+				36F518E22835DF1F00F611CB /* UIImageViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FAABE6DAC765D4BEB2793D8B2F65B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400116ACB1282FD89BE90FBC640FFF3D /* Pods-CommonLibHelperCapstone_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E258E9EF98F1628E765B8D981B4A735E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E780EC608E6ACB2E3A8303C7F165591 /* Pods-CommonLibHelperCapstone_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881F821A024DB790647881DDD3BA990F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CommonLibHelperCapstone_Example";
+			target = 5D67D40EA19764ECB9B6A9DEE4670CF0 /* Pods-CommonLibHelperCapstone_Example */;
+			targetProxy = A2C8AB319D0AD165001F0A840D10A539 /* PBXContainerItemProxy */;
+		};
+		E1A991829CEFC84E711CA1D6D3EAEE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonLibHelperCapstone;
+			target = B317639ED22A4CA981F65BF7FC71AC36 /* CommonLibHelperCapstone */;
+			targetProxy = 6F1E611FBF2EB769BE668DA938A03BF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		342F1A26CCEA9476BCA4214D65D60569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55D35CA0B7AE4ED5D1DDB791158D87A /* CommonLibHelperCapstone.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone.modulemap";
+				PRODUCT_MODULE_NAME = CommonLibHelperCapstone;
+				PRODUCT_NAME = CommonLibHelperCapstone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3711E59B4140E3AA2193D914BAD06524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FC55A402C84F7F068E15E04755229F /* Pods-CommonLibHelperCapstone_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Example/Pods-CommonLibHelperCapstone_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Example/Pods-CommonLibHelperCapstone_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66068C42BC1E2A5BC650CAEF817EA926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38068323AA7FB6C6FF03935C565CF1E8 /* CommonLibHelperCapstone.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonLibHelperCapstone/CommonLibHelperCapstone.modulemap";
+				PRODUCT_MODULE_NAME = CommonLibHelperCapstone;
+				PRODUCT_NAME = CommonLibHelperCapstone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F648B9F21C630E0ACCB3B018F6A693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90027CCF1673496B679787E32A488FA /* Pods-CommonLibHelperCapstone_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Example/Pods-CommonLibHelperCapstone_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Example/Pods-CommonLibHelperCapstone_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C596271D7246E01E180DA111E5F42849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCE78DF44A959E0667CF1FBBEA2101A /* Pods-CommonLibHelperCapstone_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Tests/Pods-CommonLibHelperCapstone_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Tests/Pods-CommonLibHelperCapstone_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E75A962CEDB7193CF590F39BA577369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8109A4AD74F3915C2C01A32DB9FA03C /* Pods-CommonLibHelperCapstone_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Tests/Pods-CommonLibHelperCapstone_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonLibHelperCapstone_Tests/Pods-CommonLibHelperCapstone_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B98A805D00E522B8A48313549DD77C0 /* Build configuration list for PBXNativeTarget "CommonLibHelperCapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66068C42BC1E2A5BC650CAEF817EA926 /* Debug */,
+				342F1A26CCEA9476BCA4214D65D60569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78592FAA710B28E1C975D2355121D50A /* Build configuration list for PBXNativeTarget "Pods-CommonLibHelperCapstone_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75A962CEDB7193CF590F39BA577369D /* Debug */,
+				C596271D7246E01E180DA111E5F42849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E7630C5354561354638E28321ECE15 /* Build configuration list for PBXNativeTarget "Pods-CommonLibHelperCapstone_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711E59B4140E3AA2193D914BAD06524 /* Debug */,
+				68F648B9F21C630E0ACCB3B018F6A693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

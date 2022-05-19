@@ -1,0 +1,16 @@
+PODS:
+  - CommonLibHelperCapstone (0.1.0)
+
+DEPENDENCIES:
+  - CommonLibHelperCapstone (from `../`)
+
+EXTERNAL SOURCES:
+  CommonLibHelperCapstone:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonLibHelperCapstone: 8ccd311354457f1e4780d46e0d885f7fa0ec8f60
+
+PODFILE CHECKSUM: 4019fddbce12dd9a08014cc19eb688c14b02a59f
+
+COCOAPODS: 1.11.2
