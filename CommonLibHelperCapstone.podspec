@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CommonLibHelperCapstone'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CommonLibHelperCapstone.'
+  s.summary          = 'first library
   s.swift_version = '4.0'
 
 # This description is used to generate tags and improve search results.
