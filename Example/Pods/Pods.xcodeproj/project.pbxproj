@@ -10,6 +10,8 @@
 		084B406F83E785B3F1C99689C0EE5973 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400BED9D5C82DC4837D9E31440568F8 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C1A8EA6E038C44C6CAF2228C2392776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		36F518E22835DF1F00F611CB /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */; };
+		36F518E42835E51200F611CB /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F518E32835E51200F611CB /* ExtensionViewController.swift */; };
+		36F518E62835E54600F611CB /* ListGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F518E52835E54600F611CB /* ListGameModel.swift */; };
 		400116ACB1282FD89BE90FBC640FFF3D /* Pods-CommonLibHelperCapstone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF1FEB2200712E8902A6BEF3F48578B /* Pods-CommonLibHelperCapstone_Tests-dummy.m */; };
 		40B93FEB2FA4EA41818A4C1C8FB9EAAC /* CommonLibHelperCapstone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BBB7CA54D654BB8686A332A35524E /* CommonLibHelperCapstone-dummy.m */; };
 		4E780EC608E6ACB2E3A8303C7F165591 /* Pods-CommonLibHelperCapstone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581BC078B13B97A7669DDFB41A3FE453 /* Pods-CommonLibHelperCapstone_Example-dummy.m */; };
@@ -42,6 +44,8 @@
 		32C4A0C8E8E3FAE3C444E4B196D88359 /* Pods-CommonLibHelperCapstone_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Tests-Info.plist"; sourceTree = "<group>"; };
 		338B5CDD51A4711632077EF825B59FB2 /* Pods-CommonLibHelperCapstone_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonLibHelperCapstone_Example-Info.plist"; sourceTree = "<group>"; };
 		36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		36F518E32835E51200F611CB /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		36F518E52835E54600F611CB /* ListGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGameModel.swift; sourceTree = "<group>"; };
 		38068323AA7FB6C6FF03935C565CF1E8 /* CommonLibHelperCapstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonLibHelperCapstone.debug.xcconfig; sourceTree = "<group>"; };
 		4400BED9D5C82DC4837D9E31440568F8 /* Pods-CommonLibHelperCapstone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonLibHelperCapstone_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4CAEEC178E00621E80F15984A2FFDD15 /* CommonLibHelperCapstone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonLibHelperCapstone.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				36F518E12835DF1F00F611CB /* UIImageViewExtension.swift */,
+				36F518E32835E51200F611CB /* ExtensionViewController.swift */,
+				36F518E52835E54600F611CB /* ListGameModel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -376,7 +382,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B93FEB2FA4EA41818A4C1C8FB9EAAC /* CommonLibHelperCapstone-dummy.m in Sources */,
+				36F518E62835E54600F611CB /* ListGameModel.swift in Sources */,
 				36F518E22835DF1F00F611CB /* UIImageViewExtension.swift in Sources */,
+				36F518E42835E51200F611CB /* ExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
