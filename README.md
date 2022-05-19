@@ -17,7 +17,7 @@ CommonLibHelperCapstone is available through [CocoaPods](https://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CommonLibHelperCapstone'
+pod 'CommonLibHelperCapstone', :git => 'https://github.com/edooktarifa/CommonLibHelperCapstone.git', :tag => '0.1.2'
 ```
 
 ## Author
